@@ -26,7 +26,7 @@ pip install python-socketio
 ```
 python3 app.py
 ```
-### Go to `127.0.0.1:5000`in your browser to access the flask app.
+### Go to `127.0.0.1:5000` in your browser to access the flask app.
 ### You could also run the `index.html` directly in the browser to see the same result.
 ### This approach could be considered as external system connect to our socketio. (Such as ReactJS, NextJS ...)
 ### By default, it will be blocked because we don't config the `CORS`, but in `app.py`, we are already config it, so it can be access from the external system.
